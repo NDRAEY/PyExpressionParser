@@ -1,2 +1,9 @@
 # PyExpressionParser
-Python Mathematical Expression Parser and Evaluator (PMEPAE)
+
+Simple Python Mathematical Expression Parser that supports basic
+mathematical operations:
+[+] Addition
+[+] Substraction
+[+] Multiplication
+[+] Division
+
