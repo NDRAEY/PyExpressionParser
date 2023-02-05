@@ -34,7 +34,8 @@ def negative_numbers(tokens):
         p = tokens[i]
 
         if p.type == TokenType.OPERATOR and \
-           tokens[i+1].type == TokenType.NUMBER:
+           tokens[i+1].type == TokenType.NUMBER and \
+           p.value == "-":
            ntok = p
            ntok.end = tokens[i+1].end
            ntok.value = p.value + tokens[i+1].value
